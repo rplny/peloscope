@@ -1,0 +1,9 @@
+tuval_ac(800, 800);
+yildiz harita_durumu = "Bos";
+fal(harita_durumu);
+kehanet "--- Yıldız Falı Kombinasyonu Başlatılıyor ---";
+retro (gokyuzu == gokyuzu) {
+    kehanet harita_durumu;
+} ilerleme {
+    kehanet "Yıldız haritanızda bu kombinasyon için özel bir retro bulunamadı.";
+}

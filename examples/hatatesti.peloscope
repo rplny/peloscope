@@ -1,0 +1,2 @@
+yildiz yanlis_hesap = "Koc" + 5;
+kehanet yanlis_hesap;

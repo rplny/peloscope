@@ -1,0 +1,5 @@
+tuval_ac(600, 600);
+yildiz kaderim = "Bos";
+fal(kaderim);
+kehanet "--- Günlük Kozmik Yorumunuz ---";
+kehanet kaderim;

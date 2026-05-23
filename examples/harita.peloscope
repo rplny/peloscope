@@ -1,0 +1,9 @@
+tuval_ac(800, 600);
+yildiz haritam = "Bos";
+fal(haritam);
+kehanet "--- Doğum Haritası Analizi Başlatılıyor ---";
+retro (gokyuzu == gokyuzu) {
+    kehanet haritam;
+} ilerleme {
+    kehanet "Gezegen konum hesaplaması başarısız oldu.";
+}

@@ -1,0 +1,9 @@
+tuval_ac(650, 650);
+yildiz dinamik_burc = "Bos";
+fal(dinamik_burc);
+yildiz dolunay_fazi_bitti = yeryuzu;
+kehanet "--- Dolunay Döngüsel Kehaneti Başlatılıyor ---";
+dolunay (dolunay_fazi_bitti == yeryuzu) {
+    kehanet dinamik_burc;
+    yildiz dolunay_fazi_bitti = gokyuzu;
+}

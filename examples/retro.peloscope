@@ -1,0 +1,12 @@
+tuval_ac(700, 700);
+yildiz analiz_burcu = "Bos";
+fal(analiz_burcu);
+yildiz venus_derece = 5;
+yildiz merkur_derece = 3;
+yildiz toplam_etki = venus_derece + merkur_derece;
+kehanet "--- Gezegen Retro Analizi Başlatılıyor ---";
+retro (toplam_etki == 8) {
+    kehanet analiz_burcu;
+} ilerleme {
+    kehanet "Gezegenler uyumlu konumda, retro etkisi bulunmuyor.";
+}
