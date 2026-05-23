@@ -1,7 +1,7 @@
 Peloscope,Programlama Dillerinin Prensipleri dönem ödevim için sıfırdan tasarlayıp kodladığım, gücünü astrolojiden ve gökyüzü geometrisinden alan kendime ait özel bir programlama dili ve çalışma zamanı ortamıdır. Dilin temel amacı; kullanıcının interaktif olarak girdiği doğum tarihine göre burcunu hesaplamak, sembol tablosunda bu veriyi işlemek ve o burcun anlık astrolojik durumuna (Normal, Retro, Dolunay veya Harita) göre ekrana Java Swing penceresi fırlatarak Logo / Turtle Graphics mantığıyla neon yıldız şekilleri çizmektir. Bu projede bir derleyicinin ve yorumlayıcının geçtiği tüm temel aşamaları (Lexer, Parser, AST, Evaluator ve Symbol Table) tamamen saf Java kullanarak, harici hiçbir kütüphaneye bağımlı kalmadan tasarladım ve uyguladım.
 
 🪐 Dilimin Öne Çıkan Özellikleri
-Projemin hocanın dökümanda belirttiği isterleri nasıl karşıladığını ve ek olarak yapıya neler kazandırdığımı şu şekilde özetleyebilirim:
+Projemi şu şekilde özetleyebilirim:
 
 Katı Tip Kontrolü (Type Checking): Dilimde metinlerle (String) sayıların (Integer) aritmetik işleme girmesi tamamen yasaktır. Örneğin, derleyicim "Akrep" + 5 veya "10" + 5 gibi uyumsuz bir işlem gördüğü an çalışmayı güvenli bir şekilde keser ve terminalde anlamsal hata (Semantic Error) fırlatır.
 
@@ -35,7 +35,7 @@ Peloscope dilinin kurallarını, parantez sınırlarını ve keyword'lerini beli
 <Identifier>       ::= [a-zA-Z_][a-zA-Z0-9_]*
 <Number>           ::= [0-9]+
 <String>           ::= '"' [^"\\]* '"'
-
+```
 🔮 Benim Sözlüğüm ve Java Karşılıkları:
 yildiz: Değişken tanımlama anahtarı (Variable Declaration)
 
